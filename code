@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pugazh | UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f8f9fa; color: #333; line-height: 1.6; }
+    header, footer { background: #2c3e50; color: #fff; text-align: center; padding: 2rem; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; }
+    section { padding: 3rem 1rem; max-width: 900px; margin: auto; }
+    h2 { font-size: 2rem; color: #2c3e50; margin-bottom: 1rem; }
+    .project { background: #fff; padding: 1.5rem; border-left: 4px solid #3498db; margin-bottom: 1.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .btn { background: #3498db; color: #fff; padding: 0.75rem 1.5rem; display: inline-block; text-decoration: none; border-radius: 5px; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pugazhdharshan</h1>
+    <p>Aspiring UI/UX Designer | Internship Applicant</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate UI/UX designer focused on creating clean, user-friendly designs. Skilled in Figma, Adobe XD, and basic frontend technologies like HTML/CSS. Currently pursuing my IT degree and looking to grow through practical experience.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Finance App Redesign</h3>
+      <p>Improved the UI of a finance management app to enhance user flow and visual consistency. <a href="https://www.figma.com/your-finance-app-design" target="_blank">View Figma</a></p>
+    </div>
+    <div class="project">
+      <h3>Travel Booking App (Case Study)</h3>
+      <p>Designed a mobile UI with smooth navigation and intuitive layout. <a href="https://www.figma.com/board/oiVFoMe3Le2dBeXe7YlYaz/FigJam-basics?node-id=0-1&p=f&t=GRmtNKmbauFXs99W-0" target="_blank">View Figma</a></p>
+    </div>
+    <div class="project">
+      <h3>Landing Page for Local Business</h3>
+      <p>Developed and designed a responsive HTML/CSS landing page. <a href="https://github.com/your-landing-page" target="_blank">View Code</a></p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="C:\Users\pugaz\Downloads\pugazhdharshan.pdf" download class="btn">Download My Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:pugazhdharshan5@gmail.com">pugazhdharshan5@gmail.com</a></p>
+    <p>Phone: +91 63694 93707</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/pugazhux" target="_blank">linkedin.com/in/pugazhux</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Pugazh Pugazhdharshan</p>
+  </footer>
+
+</body>
+</html>
